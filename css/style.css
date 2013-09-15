@@ -1,0 +1,205 @@
+/*
+By Apurva Pawar
+Owner and Developer - synopisstreet.com
+*/
+
+html,body {
+margin: 0;
+padding: 0;
+}
+
+#header {
+position:fixed;
+width: 100%;
+height: 50px;
+margin-top: -50px;
+background-color:#00B2EE;
+z-index:1;
+border-bottom:solid 3px #00688B;
+}
+
+#header h1
+{
+margin-left: 20px;
+cursor: default;
+
+transition: margin-left 0.2s;
+-moz-transition: margin-left 0.2s;
+-webkit-transition: margin-left 0.2s;
+-o-transition: margin-left 0.2s;
+-ms-transition: margin-left 0.2s;
+}
+
+#header h1:hover
+{
+margin-left: 50px;
+}
+
+#container {
+position:relative;
+width: 100%;
+margin-top: 50px;
+
+padding-left:10px;
+padding-right:10px;
+z-index:0;
+background-color:black;
+}
+
+#container #createStatusButton input
+{
+margin: 10px;
+width: 140px;
+height: 30px;
+cursor: pointer;
+}
+
+
+.taskCardDiv {
+ width:288px;
+ border:solid 1px #DCDCDC;
+ background-color: #DCDCDC;
+ font-size:11px;
+ font-family:verdana;
+ color:#000;
+ padding:5px;
+ margin-top: 5px;
+ float:left;
+ border-radius: 5px;
+
+
+background-image: -ms-linear-gradient(top, #FFFFFF 0%, #DCDCDC 100%); 
+background-image: -moz-linear-gradient(top, #FFFFFF 0%, #DCDCDC 100%);
+background-image: -o-linear-gradient(top, #FFFFFF 0%, #DCDCDC 100%);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #DCDCDC));
+background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #DCDCDC 100%);
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #DCDCDC 100%);
+
+box-shadow: 0px 0px 3px black;
+}
+
+.taskCardDiv input
+{
+background-color: orange;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.statusDiv {
+ width:300px;
+ border:solid 1px #c0c0c0;
+ background-color:white;
+ font-size:11px;
+ font-family:verdana;
+ color:#000;
+ padding:5px;
+ float:left;
+ position:relative;
+ border-radius: 5px;
+ margin: 2px;
+
+}
+
+.statusDiv #CC
+{
+background-color: #66CD00;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.statusDiv #DAC
+{
+background-color: orange;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.statusDiv #DB
+{
+background-color: red;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.statusDiv p {
+background-color: #BFEFFF;
+padding: 10px;
+border-radius: 15px;
+ border:solid 1px black;
+ border-bottom-width:5px;
+ padding-bottom: 10px;
+
+
+background-image: -ms-linear-gradient(top, #BFEFFF 0%, #FFFFFF 100%);
+background-image: -moz-linear-gradient(top, #BFEFFF 0%, #FFFFFF 100%);
+background-image: -o-linear-gradient(top, #BFEFFF 0%, #FFFFFF 100%);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #BFEFFF), color-stop(1, #FFFFFF)); 
+background-image: -webkit-linear-gradient(top, #BFEFFF 0%, #FFFFFF 100%);
+background-image: linear-gradient(to bottom, #BFEFFF 0%, #FFFFFF 100%);
+
+ box-shadow:inset 0px 0px 4px black;
+}
+
+#taskCardInput
+{
+position: fixed;
+width: 310px;
+background-color:#DCDCDC;
+z-index:3;
+left:50%;
+margin-left:-155px;
+margin-top:100px;
+ border:solid 5px #00B2EE;
+ padding: 10px;
+ display:none;
+ border-radius: 5px;
+
+ box-shadow:inset 0px 0px 7px black;
+}
+
+#taskCardInput input,textarea
+{
+width: 300px;
+text-align: center;
+position:relative;
+clear:left;
+float: left;
+}
+
+#taskCardInput #taskSubmit
+{
+margin-top: 30px;
+margin-right: 20px;
+width: 60px;
+height: 30px;
+float: right;
+}
+
+#taskCardInput textarea
+{
+resize:vertical;
+width: 298px;
+
+}
+
+#footer
+{
+margin-top: 20px;
+width:100%;
+height: 50px;
+background-color:#42C0FB;
+position:relative;
+float:left;
+border-top:solid 2px #00688B;
+border-bottom:solid 2px #00688B;
+}
+
+#footer p
+{
+text-align: center;
+}
+
+#footer a
+{
+color: maroon;
+}

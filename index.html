@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/javascript.js"></script>		
+        
+    </head>
+    <body>
+    
+    <div id='header'>
+
+		<h1>Task Card Dashboard</h1>
+
+		<div id='taskCardInput'>
+
+			<p align="center"><b>Enter Task Details:</b></p>
+			
+			<input type="text" id='date' placeholder="Date of Creation"/>
+			<input type="text" id='taskno' placeholder="Task Number"/>
+			<input type="text" id='sub' placeholder="Subject"/>
+			<textarea id='desc' placeholder="Description"></textarea>
+			<input type="text" id='compl' placeholder="Completion Time/Date"/>
+			<input type="button" id='taskSubmit' value="Submit" onclick="createTaskCard();" />
+
+
+		</div>
+	</div>
+
+    <div id='container'>
+
+			
+		<div id='createStatusButton'>
+			<p align="center">				
+				<input type="button" value="New Status Block" onclick="createStatusItem(this);" />
+			</p>
+		</div>		
+	
+	</div>
+    <div id='footer'>
+	<p><b>By : Apurva Pawar | Owner and Developer : <a href='#'>www.SynopsisStreet.com</a></b></p>
+	</div>
+       
+    </body>
+</html>
